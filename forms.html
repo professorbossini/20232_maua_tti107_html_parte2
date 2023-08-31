@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms</title>
+</head>
+<body>
+  <input>
+    <label for="email">Email</label>
+    <input type="email" id="email">
+    <label for="cor">Cor</label>
+    <input type="color" id="cor">
+    <!-- input[type=submit]{value=Enviar} -->
+    <label for="estado">Estado</label>
+    <!-- estado=2  -->
+    <select id="estado" name="estado">
+      <option value="1">São Paulo</option>
+      <option value="2">Rio De Janeiro</option>
+      <option value="3">Espírito Santo</option>
+      <option value="4">Minas Gerais</option>
+    </select>
+    <fieldset>
+      <legend>Escolha um veículo</legend>
+      <input
+        id="X1" 
+        type="radio" 
+        name="veiculo">
+        <label for="X1">X1</label>
+      <input
+        id="Celta" 
+        type="radio" 
+        name="veiculo">
+      <label for="Celta">Celta</label>
+      <input 
+        id="Nivus"
+        type="radio" 
+        name="veiculo">
+      <label for="Nivus">Nivus</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>De quais cores você gosta?</legend>
+      <input 
+        type="checkbox" 
+        id="vermelho"
+        name="cor">
+      <label for="vermelho">Vermelho</label>
+      <input 
+        type="checkbox" 
+        id="verde"
+        name="cor">
+      <label for="verde">Verde</label>
+    </fieldset>
+    
+
+
+    <input type="submit" value="Enviar"></input>
+  </form>
+</body>
+</html>
